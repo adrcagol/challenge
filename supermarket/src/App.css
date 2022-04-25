@@ -1,0 +1,36 @@
+.config-container{
+  max-width: 600px;
+  overflow: auto;
+  border: none;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  color: #eee;
+}
+
+.operate-container{
+  flex: 2;
+}
+
+.counter-container{
+  flex: 1;
+}
+
+.app{
+  display: flex;  
+  margin: 2px auto;
+  justify-content: center;
+}
+
+.basket-container,
+.totals-container{
+  background-color: #eee;
+  max-width: 500px;
+  margin: 10px;
+  overflow: auto;
+  min-height: 300px;
+  border: 2px solid  lightskyblue;
+  padding: 30px;
+  border-radius: 10px;
+}
